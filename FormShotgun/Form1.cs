@@ -17,7 +17,7 @@ namespace FormShotgun
 
             PictureBox bullet = new()
             {
-                Image = Image.FromFile(@"C:\Users\zob_9\Downloads\bullet.PNG"),
+                Image = Image.FromFile(@"C:\Users\zob_9\Documents\GitHub\FormShotgun\FormShotgun\Assets\bullet.png"),
                 SizeMode = PictureBoxSizeMode.AutoSize,
             };
 
