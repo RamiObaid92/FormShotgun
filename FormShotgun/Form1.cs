@@ -14,10 +14,10 @@ namespace FormShotgun
 
         public void AddImageBullet(FlowLayoutPanel panel)
         {
-
+            string imagePath = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Assets", "bullet.png");
             PictureBox bullet = new()
             {
-                Image = Image.FromFile(@"C:\Users\zob_9\Documents\GitHub\FormShotgun\FormShotgun\Assets\bullet.png"),
+                Image = Image.FromFile(imagePath),
                 SizeMode = PictureBoxSizeMode.AutoSize,
             };
 
